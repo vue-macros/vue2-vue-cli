@@ -18,6 +18,10 @@ defineSlots<{}>()
 defineRender(() => {
   return h('div', 'Hello World')
 })
+
+let foo = $ref('hello')
+foo = 'world'
+console.log($$(foo))
 </script>
 
 <template>
