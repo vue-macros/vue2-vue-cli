@@ -1,9 +1,11 @@
 <script lang="ts" setup>
 import { h } from 'vue'
 
-$defineProps<{
+const { bar } = $defineProps<{
   foo?: string
+  bar: string[]
 }>()
+const barRef = $$(bar)
 
 defineModel<{
   title?: string
