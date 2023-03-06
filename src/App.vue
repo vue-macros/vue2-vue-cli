@@ -3,7 +3,7 @@ import { h } from 'vue'
 
 const { bar } = $defineProps<{
   foo?: string
-  bar: string[]
+  bar?: string[]
 }>()
 const barRef = $$(bar)
 
