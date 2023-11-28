@@ -7,7 +7,7 @@ const { bar } = $defineProps<{
 }>()
 const barRef = $$(bar)
 
-defineModel<{
+defineModels<{
   title?: string
 }>()
 
