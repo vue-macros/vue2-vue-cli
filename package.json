@@ -8,17 +8,18 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^3.33.3",
-    "vue": "^2.7.15"
+    "core-js": "^3.35.0",
+    "vue": "^2.7.16"
   },
   "devDependencies": {
-    "@vue-macros/volar": "^0.17.4",
+    "@vue-macros/volar": "^0.18.11",
     "@vue/cli-plugin-babel": "~5.0.8",
     "@vue/cli-plugin-typescript": "~5.0.8",
     "@vue/cli-service": "~5.0.8",
-    "@vueuse/core": "^10.6.1",
-    "typescript": "~5.3.2",
-    "unplugin-vue-macros": "^2.7.0",
-    "vue-tsc": "^1.8.22"
+    "@vueuse/core": "^10.7.2",
+    "typescript": "~5.3.3",
+    "unplugin": "^1.6.0",
+    "unplugin-vue-macros": "^2.7.10",
+    "vue-tsc": "^1.8.27"
   }
 }
