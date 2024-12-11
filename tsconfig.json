@@ -20,14 +20,7 @@
   },
   "vueCompilerOptions": {
     "target": 2.7,
-    "plugins": [
-      "@vue-macros/volar/define-model",
-      "@vue-macros/volar/define-props",
-      "@vue-macros/volar/short-vmodel",
-      "@vue-macros/volar/define-slots",
-      "@vue-macros/volar/export-props"
-    ]
+    "plugins": ["unplugin-vue-macros/volar"]
   },
-  "include": ["src", "tests"],
-  "exclude": ["node_modules"]
+  "include": ["src"]
 }
